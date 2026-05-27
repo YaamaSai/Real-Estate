@@ -28,7 +28,7 @@ https.get('https://api.ipify.org?format=json', (res) => {
         serverPublicIp = parsed.ip;
         console.log('Fetched server public IP:', serverPublicIp);
       }
-    } catch (e) {}
+    } catch (e) { }
   });
 }).on('error', () => {
   console.log('Could not fetch server public IP dynamically, using fallback:', serverPublicIp);
@@ -110,5 +110,8 @@ app.use('/api/agents', agentRoutes);
 
 
 const PORT = process.env.PORT || 5000;
+app.get("/", (req, res) => {
+  res.send("Backend is running successfully");
+});
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
