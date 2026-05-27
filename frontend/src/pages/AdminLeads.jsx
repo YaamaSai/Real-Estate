@@ -235,7 +235,7 @@ const AdminLeads = () => {
                       />
                       <button 
                         onClick={() => triggerDeleteConfirm(lead._id)}
-                        className="p-2 text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-all opacity-100 md:opacity-0 md:group-hover:opacity-100"
+                        className="p-2 text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-all opacity-100"
                         title="Delete Lead"
                       >
                         <Trash2 size={16} />

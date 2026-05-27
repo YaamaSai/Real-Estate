@@ -109,16 +109,16 @@ const Testimonials = () => {
 
           <div className="flex flex-wrap justify-center gap-6 max-w-4xl mx-auto">
             <div className="bg-white px-8 py-6 rounded-2xl shadow-sm border border-slate-100 flex items-center gap-4">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_logo_2015.svg" className="h-6" alt="Google" />
-              <div className="text-left">
+              <span className="text-3xl font-black" style={{ background: 'linear-gradient(135deg, #4285F4 25%, #EA4335 50%, #FBBC05 75%, #34A853)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>G</span>
+              <div className="text-center">
                 <p className="text-xl font-black text-slate-900 leading-none">4.9</p>
                 <p className="text-[9px] font-bold text-slate-400 uppercase tracking-widest mt-1">Google Reviews</p>
               </div>
             </div>
 
             <div className="bg-white px-8 py-6 rounded-2xl shadow-sm border border-slate-100 flex items-center gap-4">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_Facebook.svg" className="h-6" alt="Facebook" />
-              <div className="text-left">
+              <span className="text-3xl font-black" style={{ color: '#1877F2' }}>f</span>
+              <div className="text-center">
                 <p className="text-xl font-black text-slate-900 leading-none">4.8</p>
                 <p className="text-[9px] font-bold text-slate-400 uppercase tracking-widest mt-1">Facebook Community</p>
               </div>

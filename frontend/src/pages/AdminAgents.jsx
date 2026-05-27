@@ -276,7 +276,7 @@ const AdminAgents = () => {
                     </span>
                   </td>
                   <td className="px-8 py-6 text-right">
-                    <div className="flex justify-end gap-3 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-2 group-hover:translate-x-0">
+                    <div className="flex justify-end gap-3 transition-all duration-300">
                       <button onClick={() => openEditModal(agent)} className="p-2 text-slate-400 hover:text-gold-600 hover:bg-gold-50 rounded-xl transition-all shadow-sm hover:shadow-gold-100 border border-transparent hover:border-gold-100">
                         <Edit2 size={18} />
                       </button>

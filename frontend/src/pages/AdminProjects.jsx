@@ -256,7 +256,7 @@ const AdminProjects = () => {
                     <p className="text-sm text-slate-500 line-clamp-1">{proj.description || proj.desc}</p>
                   </td>
                   <td className="px-6 py-4 text-right">
-                    <div className="flex items-center justify-end gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="flex items-center justify-end gap-2 transition-opacity">
                       <button 
                         onClick={() => openModal(proj)}
                         className="p-2 text-slate-400 hover:text-gold-600 hover:bg-gold-50 rounded-lg transition-all"
