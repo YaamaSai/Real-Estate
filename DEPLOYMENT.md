@@ -180,7 +180,7 @@ Nginx will host the static frontend on port `80` (HTTP) and dynamically proxy al
 
        # Proxy API requests to Node.js backend
        location /api/ {
-           proxy_pass http://localhost:5000;
+           proxy_pass https://real-estate-backend-cnvt.onrender.com/api;
            proxy_http_version 1.1;
            proxy_set_header Upgrade $http_upgrade;
            proxy_set_header Connection 'upgrade';

@@ -1,6 +1,6 @@
 const testApi = async () => {
   try {
-    const baseURL = 'http://localhost:5000/api';
+    const baseURL = 'https://real-estate-backend-cnvt.onrender.com/api';
 
     // 1. Log in to get token
     console.log('Logging in to get JWT token...');
