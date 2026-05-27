@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#F5D06A"/>
+      <stop offset="40%"  stop-color="#D4A017"/>
+      <stop offset="100%" stop-color="#A67C00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ============================================================
+       GEOMETRIC CUBE / HOUSE WIREFRAME — centered at x=210
+  ============================================================ -->
+
+  <!-- Top-left wing panel -->
+  <polyline points="148,70 178,53 210,70 178,87" stroke="url(#goldGrad)" stroke-width="3" stroke-linejoin="round" fill="none"/>
+  <!-- Top-right wing panel -->
+  <polyline points="210,70 242,53 272,70 242,87" stroke="url(#goldGrad)" stroke-width="3" stroke-linejoin="round" fill="none"/>
+
+  <!-- Small square dot (window) at top center -->
+  <rect x="204" y="62" width="12" height="12" fill="url(#goldGrad)" rx="1.5"/>
+
+  <!-- Left vertical wall -->
+  <line x1="148" y1="70" x2="148" y2="126" stroke="url(#goldGrad)" stroke-width="3"/>
+  <!-- Right vertical wall -->
+  <line x1="272" y1="70" x2="272" y2="126" stroke="url(#goldGrad)" stroke-width="3"/>
+
+  <!-- Mid horizontal band left -->
+  <polyline points="148,126 178,109 210,126" stroke="url(#goldGrad)" stroke-width="3" stroke-linejoin="round" fill="none"/>
+  <!-- Mid horizontal band right -->
+  <polyline points="210,126 242,109 272,126" stroke="url(#goldGrad)" stroke-width="3" stroke-linejoin="round" fill="none"/>
+
+  <!-- Center vertical spine -->
+  <line x1="210" y1="70" x2="210" y2="164" stroke="url(#goldGrad)" stroke-width="3"/>
+
+  <!-- Bottom-left panel -->
+  <polyline points="148,126 173,144 210,164" stroke="url(#goldGrad)" stroke-width="3" stroke-linejoin="round" fill="none"/>
+  <!-- Bottom-right panel -->
+  <polyline points="272,126 247,144 210,164" stroke="url(#goldGrad)" stroke-width="3" stroke-linejoin="round" fill="none"/>
+
+  <!-- Bottom base line -->
+  <line x1="173" y1="144" x2="247" y2="144" stroke="url(#goldGrad)" stroke-width="3"/>
+
+  <!-- ============================================================
+       BRIDL360 TEXT — large classic serif, gold gradient
+  ============================================================ -->
+  <text
+    x="210"
+    y="218"
+    text-anchor="middle"
+    font-family="'Georgia', 'Times New Roman', serif"
+    font-size="46"
+    font-weight="700"
+    letter-spacing="5"
+    fill="url(#goldGrad)"
+  >BRIDL360</text>
+</svg>
